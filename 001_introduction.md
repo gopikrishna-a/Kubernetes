@@ -21,14 +21,16 @@
 
 #### Kubernetes Advantages
 
--- You can run Kubernetes anywhere:
+* You can run Kubernetes anywhere:
+
         -- On-Premise (Own datacenter)
         -- Public (Google cloud, AWS, other clouds)
         -- Hybrid: Public and Private
--- Highly modular so you can make changes if necessary
--- Kubernetes is opensource
--- Kubernetes has great community
--- Kubernetes is Backed by Google
+        
+* Highly modular so you can make changes if necessary
+* Kubernetes is opensource
+* Kubernetes has great community
+* Kubernetes is Backed by Google
 
         
 
