@@ -8,6 +8,7 @@
 * You can run multiple containers on one machine
 * You can run long running services (like web applications)
 * Kubernetes will manage the state of these containers
+
         * Can start container on specific nodes
         * Kubernetes will restart the container when it gets killed
         * Can also move one container from one node to another node
