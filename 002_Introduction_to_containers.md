@@ -1,4 +1,4 @@
 Virtual Machine Vs Container
 
 
-![Minion](https://drive.google.com/open?id=1ySxyJJFwx0szJSiDsio8XqKAT-IGoiO_)
+![Virtual Machine Vs Container](http://cdn.ttgtmedia.com/rms/onlineImages/windows_server-virtual_machines_vs_containers.png)
