@@ -9,15 +9,16 @@
 * You can run long running services (like web applications)
 * Kubernetes will manage the state of these containers
 
-        1. Can start container on specific nodes
-        2. Kubernetes will restart the container when it gets killed
-        3. Can also move one container from one node to another node
+        -- Can start container on specific nodes
+        -- Kubernetes will restart the container when it gets killed
+        -- Can also move one container from one node to another node
+        
 * Instead of just running a few docker containers on one host manually, Kubernetes is a platform that will manage the containers for you
 * Kubernetes clusters can start with one node and can go upto thousend nodes
 * Some other popular docker orchestrators are:
 
-        1. Docker Swarm
-        2. Mesos
+        -- Docker Swarm
+        -- Mesos
 
 #### Kubernetes Advantages
 
