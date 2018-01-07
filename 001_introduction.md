@@ -5,7 +5,7 @@
 
 * Kubernetes is an open source orchestration system for Docker containers
 * It let's you schedule containers on a cluster of machines
-* You can run multiple containers on one machine
+* You can run multiple containers on one machine and those machines will make up the cluster
 * You can run long running services (like web applications)
 * Kubernetes will manage the state of these containers
 
@@ -28,11 +28,10 @@
         -- Public (Google cloud, AWS, other clouds)
         -- Hybrid: Public and Private
         
-* Highly modular so you can make changes if necessary
+* Kubernetes is Highly modular so you can make changes if necessary
 * Kubernetes is opensource
-* Kubernetes has great community
+* Kubernetes has a great community
 * Kubernetes is Backed by Google
 
-        
 
 
