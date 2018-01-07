@@ -1,7 +1,7 @@
 # Introduction to Kubernetes
 
 
-#### 1. What is Kubernetes?
+#### What is Kubernetes
 
 * Kubernetes is an open source orchestration system for Docker containers
 * It let's you schedule containers on a cluster of machines
@@ -12,3 +12,24 @@
         1. Can start container on specific nodes
         2. Kubernetes will restart the container when it gets killed
         3. Can also move one container from one node to another node
+* Instead of just running a few docker containers on one host manually, Kubernetes is a platform that will manage the containers for you
+* Kubernetes clusters can start with one node and can go upto thousend nodes
+* Some other popular docker orchestrators are:
+
+        1. Docker Swarm
+        2. Mesos
+
+#### Kubernetes Advantages
+
+-- You can run Kubernetes anywhere:
+        -- On-Premise (Own datacenter)
+        -- Public (Google cloud, AWS, other clouds)
+        -- Hybrid: Public and Private
+-- Highly modular so you can make changes if necessary
+-- Kubernetes is opensource
+-- Kubernetes has great community
+-- Kubernetes is Backed by Google
+
+        
+
+
