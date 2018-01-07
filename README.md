@@ -11,4 +11,4 @@
 
 * To be able to run stateless and statefull application on Kubernetes
 
-* To be ab;e to administer Kubernetes
+* To be able to administer Kubernetes
