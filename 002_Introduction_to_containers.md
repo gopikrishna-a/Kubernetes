@@ -13,6 +13,8 @@
 
 ![Virtual Machine Vs Container](https://i.imgur.com/vV2H20Z.png)
 
+### Virtual Machine Versus Container:
+
 ![Virtual Machine Vs Container](http://cdn.ttgtmedia.com/rms/onlineImages/windows_server-virtual_machines_vs_containers.png)
 
 
