@@ -20,13 +20,13 @@
 
 ### Docker:
 
-i.Docker is the most popular container software, An alternative to Docker is rkt - which also works with Kubernetes
++ Docker is the most popular container software, An alternative to Docker is rkt - which also works with Kubernetes
 
 ### Docker Engine:
 
-i. Docker consists of Docker Engine, It's Docke runtime.
-ii. Docker Engine is a software to make run the Docker images
-iii. Using Docker Engine we can also build Docker images to then run on Kubernetes cluster.
++ Docker consists of Docker Engine, It's Docke runtime.
++ Docker Engine is a software to make run the Docker images
++ Using Docker Engine we can also build Docker images to then run on Kubernetes cluster.
 
 ### Docker Hub:
 
