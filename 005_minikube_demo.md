@@ -1,6 +1,29 @@
 # Minikube Demo
 
-+ Go to https://github.com/kubernetes/minikube
+#### Set up a Local Kuberneties using Minikube
+
+##### Install the required packages  i.e VirtualBox, Kubectl and Minikube and follow the below steps
 
 
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+
+    PS C:\Users\asm\Desktop\Kuberneties> ls
+
+
+        Directory: C:\Users\asm\Desktop\Kuberneties
+
+
+	  Mode                LastWriteTime     Length Name
+	  ----                -------------     ------ ----
+	  -a---         1/20/2018   8:38 AM   52721152 kubectl.exe
+	  -a---         1/20/2018   8:39 AM   41454592 minikube.exe
+    
+    
+    
+
+
+
+
+
+
+
+
