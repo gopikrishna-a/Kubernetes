@@ -1,6 +1,6 @@
 # Minikube Demo
 
-#### Set up a Local Kuberneties using Minikube
+### Set up a Local Kuberneties using Minikube
 
 ##### Install the required packages  i.e VirtualBox, Kubectl and Minikube and follow the below steps
 
@@ -89,11 +89,33 @@
 		port=8080
 		deployment "hello-minikube" created
 		
-+ 
++ From the above logs we can see that the image deployment has done successfully 
+
++ The following are few more useful commans
+
+		PS C:\Users\asm\Desktop\Kuberneties> .\kubectl.exe expose deployment hello-minikube --type=NodePort
+		service "hello-minikube" exposed
+		PS C:\Users\asm\Desktop\Kuberneties>
 
 
+		PS C:\Users\asm\Desktop\Kuberneties> .\kubectl.exe get svc
+		NAME             TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+		hello-minikube   NodePort    10.107.141.240   <none>        8080:30713/TCP   1m
+		kubernetes       ClusterIP   10.96.0.1        <none>        443/TCP          33m
+		PS C:\Users\asm\Desktop\Kuberneties>
+
+		PS C:\Users\asm\Desktop\Kuberneties> .\minikube.exe service hello-minikube --url
+		http://192.168.99.100:30713
 
 
+		PS C:\Users\asm\Desktop\Kuberneties> .\kubectl.exe get pods
+		NAME                              READY     STATUS    RESTARTS   AGE
+		hello-minikube-57889c865c-nrclq   1/1       Running   0          7m
 
 
++ To stop the local minikube cluster run the following command.
+
+		PS C:\Users\asm\Desktop\Kuberneties> .\minikube.exe stop
+		Stopping local Kubernetes cluster...
+		Machine stopped.
 
