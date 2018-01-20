@@ -14,10 +14,10 @@
 
 #### Pre Requirements
 
-+ Inorder to use minicube we need to install following packages
-- VirtualBox
-- Kubectl
-- Minikube
++ In order to use minicube we need to install following packages
+  - VirtualBox
+  - Kubectl
+  - Minikube
 
 #### Installing Kubernetes 
 
